@@ -21,29 +21,10 @@ void drawgdcube (int x, int y);
 int main ()
     {
     txCreateWindow (1337, 542);
-    txSetFillColor (RGB (21, 138, 255));
+    txSetFillColor (RGB (255, 255, 255));
     txClear ();
 
-    drawgdcube (358,460);
-    txSleep (750);
 
-    dvigDiskord (1500, 95, 35);
-    txSleep (300);
-
-    kotik ();
-    txSleep (300);
-
-    dvigpatrik (112, 620);
-    txSleep (300);
-
-    txSetColor (TX_GREEN);
-    txSetFillColor (TX_GREEN);
-    dvigshar (1, 542, 40);
-    txSleep (300);
-
-    mnogougolnik (70, 35);
-
-    kotik ();
 
     return 0;
 
@@ -89,8 +70,8 @@ void kotik ()
     txRectangle (1137, 480, 1261, 514);
 
     txSetColor (RGB (237, 28, 36));
-    txSetFillColor (RGB (237, 28, 36));
-    txRectangle (1157, 480, 1231, 500);
+    txSetFillColor (RGB (237, 28, 36));        //1193,
+    txRectangle (1156, 480, 1230, 500);
 
     txSetColor (RGB (18, 18, 18));
     txSetFillColor (RGB (68, 217, 36));
@@ -180,6 +161,30 @@ void drawgdcube (int x, int y)
     txEnd ();
     }
 
-void drawamongus (int x, int y)
+void drawamongustelo (int x, int y)
+    {
+    txSetFillColor (RGB (255, 6, 0));
+    txRectangle (512, 102, 728, 432);
+    }
+
+void drawamogisnoga1 (int x, int y)
+    {
+    txSetFillColor (RGB (255, 6, 0));
+    txRectangle (512, 432, 559, 509);
+    }
+
+void drawamogusnoga2 (int x, int y)
+    {
+    txSetFillColor (RGB (255, 6, 0));
+    txRectangle (681, 432, 728, 509);
+    }
+
+void drawamogusbackpack (int x, int y)
+    {
+    txSetFillColor (RGB (255, 6, 0));
+    txRectangle (450, 158, 512, 380);
+    }
+
+void AAAAAAA (int x, int y)
     {
     }
